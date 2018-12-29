@@ -1,0 +1,210 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:2:1-50:12
+MERGED from [com.android.support:design:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/1017ddd52996d7abc69d8a6eccddd8f0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/432f8bbf2898f606fc510cca2040ba37/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/kai/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/48afff2b9cabd26af4d843b5e29f8941/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/d464caa52104414107409a2721b0cf76/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/1e0d825bbe9d45222308482d38b017e1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/82f2fc084a7a2669e8125b0997fda0da/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/ebbbbf04b28246b0ecc270a5b8ed1f16/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/46278ae62c8ebc993f0cdf86bd0e712c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/1477fe8cc7cd3a39558f513eec558b6a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/38c120d474f92795759ba34794c7df69/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/734b4c268c3a93957a38b1fb6e8b5f5e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/8f1fafb38ecd78cddca8df57bf5be4f6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/420810e7bd5831095deefd1665777ffe/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/kai/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/411ffb3b16d3d572d8e3f579b6d2ec45/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/kai/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/577a5a0c7edec079d517f802f597e3af/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/kai/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7bde1dbf3761b0cb6d9d6dfbd4bfca98/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/kai/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/163239ea5fcaba65f64abefceaa879f8/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:2:1-50:12
+	package
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:2:1-50:12
+		INJECTED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:2:1-50:12
+		INJECTED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:8:22-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:9:22-64
+application
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:11:5-48:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/kai/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/48afff2b9cabd26af4d843b5e29f8941/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/kai/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/48afff2b9cabd26af4d843b5e29f8941/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:14:9-35
+	android:roundIcon
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:15:9-54
+	android:icon
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:17:9-65
+activity#generalactivities.LoginActivity
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:18:9-24:20
+	android:name
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:18:19-65
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:22:27-74
+activity#fall2018.csc2017.slidingtiles.StartingActivity
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:25:9-54
+	android:name
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:25:19-51
+activity#fall2018.csc2017.slidingtiles.GameActivity
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:26:9-50
+	android:name
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:26:19-47
+activity#generalactivities.GameSelectionActivity
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:27:9-76
+	android:name
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:27:19-73
+activity#generalactivities.MenuActivity
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:28:9-31:72
+	android:label
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:30:13-56
+	android:theme
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:31:13-69
+	android:name
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:29:13-58
+activity#fall2018.csc2017.slidingtiles.SlidingTilesScoreBoardActivity
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:32:9-35:72
+	android:label
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:34:13-77
+	android:theme
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:35:13-69
+	android:name
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:33:13-59
+activity#fall2018.csc2017.slidingtiles.SlidingTilesComplexityActivity
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:36:9-68
+	android:name
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:36:19-65
+activity#fall2018.csc2017.slidingtiles.DownloadingActivity
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:37:9-57
+	android:name
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:37:19-54
+activity#generalactivities.SettingActivity
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:38:9-70
+	android:name
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:38:19-67
+activity#fall2018.csc2017.pong.PongGameActivity
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:39:9-75
+	android:name
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:39:19-72
+activity#fall2018.csc2017.pong.PongStartingActivity
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:40:9-79
+	android:name
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:40:19-76
+activity#fall2018.csc2017.coldwar.ColdWarMainActivity
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:41:9-81
+	android:name
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:41:19-78
+activity#fall2018.csc2017.pong.PongScoreBoardActivity
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:42:9-81
+	android:name
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:42:19-78
+activity#fall2018.csc2017.coldwar.UserPiecesSelectionActivity
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:43:9-89
+	android:name
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:43:19-86
+activity#fall2018.csc2017.coldwar.GuestPiecesSelectionActivity
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:44:9-90
+	android:name
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:44:19-87
+activity#fall2018.csc2017.coldwar.ColdWarMenu
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:45:9-73
+	android:name
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:45:19-70
+activity#fall2018.csc2017.coldwar.ColdWarScoreBoardActivity
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:46:9-87
+	android:name
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:46:19-84
+activity#fall2018.csc2017.coldwar.InstructionActivity
+ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:47:9-90
+	android:name
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml:47:19-78
+uses-sdk
+INJECTED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml
+INJECTED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/1017ddd52996d7abc69d8a6eccddd8f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/1017ddd52996d7abc69d8a6eccddd8f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/432f8bbf2898f606fc510cca2040ba37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/432f8bbf2898f606fc510cca2040ba37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/kai/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/48afff2b9cabd26af4d843b5e29f8941/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/kai/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/48afff2b9cabd26af4d843b5e29f8941/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/d464caa52104414107409a2721b0cf76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/d464caa52104414107409a2721b0cf76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/1e0d825bbe9d45222308482d38b017e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/1e0d825bbe9d45222308482d38b017e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/82f2fc084a7a2669e8125b0997fda0da/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/82f2fc084a7a2669e8125b0997fda0da/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/ebbbbf04b28246b0ecc270a5b8ed1f16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/ebbbbf04b28246b0ecc270a5b8ed1f16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/46278ae62c8ebc993f0cdf86bd0e712c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/46278ae62c8ebc993f0cdf86bd0e712c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/1477fe8cc7cd3a39558f513eec558b6a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/1477fe8cc7cd3a39558f513eec558b6a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/38c120d474f92795759ba34794c7df69/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/38c120d474f92795759ba34794c7df69/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/734b4c268c3a93957a38b1fb6e8b5f5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/734b4c268c3a93957a38b1fb6e8b5f5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/8f1fafb38ecd78cddca8df57bf5be4f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/8f1fafb38ecd78cddca8df57bf5be4f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/420810e7bd5831095deefd1665777ffe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/kai/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/420810e7bd5831095deefd1665777ffe/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/kai/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/411ffb3b16d3d572d8e3f579b6d2ec45/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/kai/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/411ffb3b16d3d572d8e3f579b6d2ec45/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/kai/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/577a5a0c7edec079d517f802f597e3af/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/kai/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/577a5a0c7edec079d517f802f597e3af/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/kai/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7bde1dbf3761b0cb6d9d6dfbd4bfca98/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/kai/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7bde1dbf3761b0cb6d9d6dfbd4bfca98/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/kai/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/163239ea5fcaba65f64abefceaa879f8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/kai/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/163239ea5fcaba65f64abefceaa879f8/AndroidManifest.xml:20:5-44
+INJECTED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml
+INJECTED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml
+		ADDED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kai/Desktop/ColdWar/app/src/main/AndroidManifest.xml

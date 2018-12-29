@@ -1,0 +1,41 @@
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_height="match_parent"
+android:layout_width="match_parent"
+tools:context="fall2018.csc2017.coldwar.InstructionActivity" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="Cold War"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/coldwarinstructions"
+            android:layout_gravity="center"
+            android:text="Amidst a Cold War, the world's two great superpowers vying to assert dominance over each other. Emissaries have been dispatched by both countries – some legitimate diplomats, and others acting as spies under the cover of diplomacy. As the leader of a superpower, your job is to make use of your eight agents (4 legitimate diplomats, 4 spies) to outplay your opponent. Be careful, though, you are not the only one with spies; some of your opponent's agents may, in fact, be spies attempting to steal secrets from your own bases. You must eradicate these cunning spies while being cautious not to accidentally take out agents on legitimate diplomatic missions. \n\n
+Commands: \n
+You may order one of your agents to move orthogonally, one tile at a time each turn. \n
+Both types of agents have the ability to apprehend any enemy agent. \n
+Press BEGIN TURN to unhide the identities of your own agents, and END TURN when you have finished your move to hide the identities of your agents. \n\n
+Win Conditions: \n
+You may achieve world dominance through any of the following ways: \n
+1. Steal your opponent's military and technological secrets by capturing one of two enemy bases with a spy. \n
+2. Eradicate all enemy spies. \n \n
+Lose Condition: \n
+Your opponent may triumph over you if international opinion turns against you. Be careful not to kill all 4 of your opponent's legitimate diplomats, as this will cause UN sanctions and protests leading to the toppling of your government. You must maintain a global reputation of over 0.  "
+            android:layout_margin="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

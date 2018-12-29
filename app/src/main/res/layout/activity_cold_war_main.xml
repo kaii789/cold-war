@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fall2018.csc2017.coldwar.ColdWarMainActivity">
+
+    <GridView
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:id="@+id/coldWarGridView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:numColumns="6" />
+
+    <LinearLayout
+        android:layout_marginTop="36dp"
+        android:layout_below="@id/coldWarGridView"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="36dp"
+            android:text="Intelligence Report"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/userReputation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/guestReputation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/lastMoveText"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lastMoveText" />
+
+        <TextView
+            android:id="@+id/selectedPositionText"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Position: " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/endTurnButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:onClick="endTurnButtonClicked"
+            android:text="End Turn" />
+
+        <Button
+            android:id="@+id/beginMoveButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:onClick="readyButtonClicked"
+            android:text="Ready" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:onClick="save"
+            android:text="Save" />
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

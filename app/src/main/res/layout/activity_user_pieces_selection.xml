@@ -1,0 +1,196 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="fall2018.csc2017.coldwar.UserPiecesSelectionActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current user, please position your pieces"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:id="@+id/informUser"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="38dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/spy1"
+                android:enabled="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spy 1" />
+
+            <Button
+                android:id="@+id/spy2"
+                android:enabled="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spy1"
+                android:text="Spy 2" />
+
+            <Button
+                android:id="@+id/spy3"
+                android:enabled="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spy2"
+                android:text="Spy 3" />
+
+            <Button
+                android:id="@+id/spy4"
+                android:enabled="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spy3"
+                android:text="Spy 4" />
+
+            <EditText
+                android:id="@+id/spy1Input"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="4dp"
+                android:layout_marginEnd="32dp" />
+
+            <EditText
+                android:id="@+id/spy2Input"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/spy1Input"
+                android:layout_marginBottom="4dp"
+                android:layout_marginEnd="32dp" />
+
+            <EditText
+                android:id="@+id/spy3Input"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/spy2Input"
+                android:layout_marginBottom="4dp"
+                android:layout_marginEnd="32dp" />
+
+            <EditText
+                android:id="@+id/spy4Input"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/spy3Input"
+                android:layout_marginEnd="32dp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/dip1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diplomat 1" />
+
+            <Button
+                android:id="@+id/dip2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dip1"
+                android:text="Diplomat 2" />
+
+            <Button
+                android:id="@+id/dip3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dip2"
+                android:text="Diplomat 3" />
+
+            <Button
+                android:id="@+id/dip4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dip3"
+                android:text="Diplomat 4" />
+
+            <EditText
+                android:id="@+id/dip1Input"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="4dp"
+                android:layout_marginEnd="32dp" />
+
+            <EditText
+                android:id="@+id/dip2Input"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/dip1Input"
+                android:layout_marginBottom="4dp"
+                android:layout_marginEnd="32dp" />
+
+            <EditText
+                android:id="@+id/dip3Input"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/dip2Input"
+                android:layout_marginBottom="4dp"
+                android:layout_marginEnd="32dp" />
+
+            <EditText
+                android:id="@+id/dip4Input"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/dip3Input"
+                android:layout_marginEnd="32dp" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Please select a row then a column without any spaces in between. You may only select from rows E and F and not from the bases(F1, F6). For example, F2 would be a valid input but not A1."
+        android:layout_above="@id/boardImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/boardImage"
+        android:layout_width="373dp"
+        android:layout_height="309dp"
+        android:layout_above="@+id/submitP1"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/board" />
+
+    <Button
+        android:id="@+id/submitP1"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+</RelativeLayout>
